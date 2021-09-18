@@ -1,0 +1,22 @@
+{
+  "name": "hexo-tmdb-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hexo"
+  ],
+  "author": "Haitao",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.15.4",
+    "axios": "^0.21.4",
+    "ejs": "^3.1.6",
+    "hexo-fs": "^3.1.0",
+    "hexo-i18n": "^1.0.0",
+    "hexo-log": "^2.0.0"
+  }
+}

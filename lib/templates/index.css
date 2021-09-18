@@ -1,0 +1,70 @@
+.tmdb-item {
+    width: 100%;
+    height: fit-content;
+    border-radius: 10px;
+    background-size: cover;
+    margin: 10px 0 10px 0;
+}
+
+.item-container {
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    border-radius: inherit;
+}
+
+.tmdb-title {
+    font-size: xx-large;
+}
+
+.tmdb-picture img {
+    border-radius: 5px;
+    box-shadow: 0 5px 10px black;
+}
+
+.tmdb-info {
+    width: 50%;
+    min-width: 200px;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 0 1px 5px black;
+}
+
+.tmdb-subtitle {
+    font-size: large;
+}
+
+.tmdb-genres {
+    font-size: x-small;
+}
+
+.tmdb-pagination {
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 10px
+}
+
+.tmdb-button {
+    border-radius: 5px;
+    padding: 5px
+}
+
+.tmdb-button:hover {
+    background: #999;
+    color: #fff
+}
+
+.tmdb-hide {
+    display: none
+}
+
+.tmdb-show {
+    display: block
+}
+
