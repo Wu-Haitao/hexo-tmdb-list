@@ -25,3 +25,5 @@ listId: https://www.themoviedb.org/list/XXXXX 最后这串数字
 在 `hexo g` 之前先执行 `hexo tmdbList -u` 更新数据，在 source/_data/ 中应该会生成 tmdbList.json 文件。
 
 电影顺序是上映年份。
+
+[DEMO](https://wu-haitao.github.io/tmdbList/)
