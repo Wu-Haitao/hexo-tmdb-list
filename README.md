@@ -1,3 +1,5 @@
+# hexo-tmdb-list
+
 > 修改自 https://github.com/HCLonely/hexo-bilibili-bangumi
 
 为 Hexo 添加电影页，数据来源是 [TMDB](https://www.themoviedb.org/)。
@@ -23,4 +25,3 @@ listId: https://www.themoviedb.org/list/XXXXX 最后这串数字
 在 `hexo g` 之前先执行 `hexo tmdbList -u` 更新数据，在 source/_data/ 中应该会生成 tmdbList.json 文件。
 
 电影顺序是上映年份。
-
