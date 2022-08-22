@@ -23,6 +23,15 @@
     font-size: xx-large;
 }
 
+.tmdb-title a {
+    color: #fff !important
+}
+
+.tmdb-title a:hover {
+    color: #aaa !important
+}
+
+
 .tmdb-picture img {
     border-radius: 5px;
     box-shadow: 0 5px 10px black;
@@ -56,8 +65,8 @@
 }
 
 .tmdb-button:hover {
-    background: #999;
-    color: #fff
+    background: #aaa;
+    color: #fff !important
 }
 
 .tmdb-hide {
@@ -67,4 +76,3 @@
 .tmdb-show {
     display: block
 }
-
