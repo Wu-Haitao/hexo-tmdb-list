@@ -20,7 +20,7 @@ tmdbList:
 
 api: https://www.themoviedb.org/settings/api 中的 API 密钥 (v3 auth)
 
-listId: https://www.themoviedb.org/list/XXXXX 片单 url 后的一串数字
+listId: https://www.themoviedb.org/list/XXXXX 最后这串数字
 
 在 `hexo g` 之前先执行 `hexo tmdbList -u` 更新数据，在 source/_data/ 中应该会生成 tmdbList.json 文件。
 
